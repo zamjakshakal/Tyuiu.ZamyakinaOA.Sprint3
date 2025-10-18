@@ -9,7 +9,7 @@ namespace Tyuiu.ZamyakinaOA.Sprint3.Task1.V15.Lib
             double s = 1;
             while (startValue <= stopValue)
             {
-                s = s + ((value * value * startValue) + 1);
+                s = s * ((value * value * startValue) + 1);
                 startValue++;
             }
             return Math.Round(s, 3);
