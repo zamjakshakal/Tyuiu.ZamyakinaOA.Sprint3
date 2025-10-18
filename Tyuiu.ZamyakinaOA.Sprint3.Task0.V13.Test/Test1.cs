@@ -13,7 +13,7 @@ namespace Tyuiu.ZamyakinaOA.Sprint3.Task0.V13.Test
             int startValue = 1;
             int stopValue = 20;
             double res = ds.GetSumSeries(value, startValue, stopValue);
-            Assert.AreEqual(0.29819878379065756, res);
+            Assert.AreEqual(0.298, res);
         }
     }
 }

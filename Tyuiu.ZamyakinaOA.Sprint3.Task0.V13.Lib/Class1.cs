@@ -11,7 +11,7 @@ namespace Tyuiu.ZamyakinaOA.Sprint3.Task0.V13.Lib
             {
                 s = s + ((Math.Pow(value, i) + 0.5) * Math.Cos(i));
             }
-            return s;
+            return Math.Round(s, 3);
         }
     }
 }
