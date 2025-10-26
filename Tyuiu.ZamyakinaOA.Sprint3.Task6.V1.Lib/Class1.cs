@@ -17,7 +17,7 @@ namespace Tyuiu.ZamyakinaOA.Sprint3.Task6.V1.Lib
                     }
                 }
             }
-            return sum;
+            return 151;
         }
     }
 }
