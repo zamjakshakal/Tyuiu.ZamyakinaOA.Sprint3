@@ -13,7 +13,7 @@ namespace Tyuiu.ZamyakinaOA.Sprint3.Task7.V27.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round(( (Math.Cos(x) / x + 1) - (Math.Cos(x) * 1.3) + (3 * x) ), 2);
+                y = Math.Round(( (Math.Cos(x) / (x + 1) ) - (Math.Cos(x) * 1.3) + (3 * x) ), 2);
                 valueArray[count] = y;
                 count++;
             }
