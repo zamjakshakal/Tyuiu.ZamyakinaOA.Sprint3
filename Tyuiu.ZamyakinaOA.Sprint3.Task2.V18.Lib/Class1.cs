@@ -7,7 +7,7 @@ namespace Tyuiu.ZamyakinaOA.Sprint3.Task2.V18.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-             double MultiplySeries = 0;
+             double MultiplySeries = 1;
              do
              {
                  MultiplySeries = MultiplySeries * (Math.Cos(value) + (Math.Pow((startValue / 8), 3)));
