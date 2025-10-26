@@ -14,7 +14,7 @@ namespace Tyuiu.ZamyakinaOA.Sprint3.Task7.V27.Lib
             for (int x = startValue; x <= stopValue; x++)
             {
                 y = Math.Round(( (Math.Cos(x) / (x + 1) ) - (Math.Cos(x) * 1.3) + (3 * x) ), 2);
-                if (y == 0)
+                if (y == 0.0)
                 {
                     valueArray[count] = double.PositiveInfinity;
                 }
