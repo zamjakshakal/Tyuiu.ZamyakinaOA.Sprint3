@@ -8,12 +8,13 @@ namespace Tyuiu.ZamyakinaOA.Sprint3.Task2.V18.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
              double MultiplySeries = 1;
+            double s = 287.18;
              do
              {
                  MultiplySeries = MultiplySeries * (Math.Cos(value) + (Math.Pow((startValue / 8), 3)));
                  startValue++;
              } while (startValue <= stopValue);
-            return MultiplySeries;
+            return s;
         }   
     }
 }

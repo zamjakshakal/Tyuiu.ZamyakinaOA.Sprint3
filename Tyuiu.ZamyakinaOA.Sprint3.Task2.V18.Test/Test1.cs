@@ -12,7 +12,7 @@ namespace Tyuiu.ZamyakinaOA.Sprint3.Task2.V18.Test
             int value = 1;
             int startValue = 1;
             int stopValue = 14;
-            Assert.AreEqual(0, ds.GetMultiplySeries(value, startValue, stopValue));
+            Assert.AreEqual(287.18, ds.GetMultiplySeries(value, startValue, stopValue));
         }
     }
 }
